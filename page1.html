@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicant's Storyboard</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Babylonica&family=Carter+One&family=Cormorant+Garamond:ital@1&family=Crimson+Text&family=Luckiest+Guy&family=PT+Serif:ital@1&family=Rubik+Iso&family=Rubik+Maze&family=Rubik+Wet+Paint&family=Tangerine&family=Yatra+One&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Babylonica&family=Carter+One&family=Cormorant+Garamond:ital@1&family=Crimson+Text&family=Luckiest+Guy&family=Open+Sans&family=PT+Serif:ital@1&family=Poppins:wght@200&family=Rubik+Iso&family=Rubik+Maze&family=Rubik+Wet+Paint&family=Tangerine&family=Yatra+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome-pro/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo" id="mainlogo">
+            <button class="logo" onclick="home()">
+                <img src="https://deepthought.education/assets/images/logo/logo.svg" alt="">
+            </button>
+        </div>
+        <div class="button">
+            <button title="Home" class="but1" onclick="home()" id="header-button-1">
+            <i class="fa-solid fa-house-chimney"></i>
+        </button>
+            <button title="Explore" class="but1" onclick="explore()" id="header-button-2">
+            <i class="fa-solid fa-binoculars"></i>
+        </button>
+            <button title="Edit profile" class="but1" onclick="" id="header-button-3">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+        </button>
+            <button title="Notification" class="but1" onclick="noti()" id="header-button-4">
+            <i class="fa-sharp fa-solid fa-bell"></i>
+        </button>
+            <button title="View Profile" class="but1" onclick="" id="header-button-5">
+                <i class="fa-solid fa-user"></i>
+        </button>
+            <button class="but1" style="background-color: rgba(255, 255, 255, 0);" onclick="tribut()" onmouseout="close()" id="header-button-6">
+            <i class="fa-solid fa-ellipsis-vertical fa-xl" style="color: #0029ff;"></i>
+        </button>
+        </div>
+        <div class="pop-up" id="popup">
+            <form class="drop">
+                <button type="submit">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <span id="drop-0"></span>
+                </button>
+            </form>
+            <div class="drop" id="drop-1">
+                <a onclick="parentdash()"></a>
+            </div>
+            <div class="drop" id="drop-2">
+                <a onclick="batches()"></a>
+            </div>
+            <div class="drop" id="drop-3">
+                <a onclick="cohorts()"></a>
+            </div>
+            <div class="drop" id="drop-4">
+                <a onclick="sess()"></a>
+            </div>
+            <div class="drop" id="drop-5">
+                <a onclick="art()"></a>
+            </div>
+            <div class="drop" id="drop-6">
+                <a onclick="qui()"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main1">
+            <div class="journey-board" id="filter">
+                <div class="box1">
+                    <h2 id="head"></h2>
+                    <button class="but1" style="background: #ffffff00;" onclick="filter()">
+                        <i class="fa-solid fa-circle-arrow-right fa-xl" style="color: #ffffff;" id="button"></i>
+                    </button>
+                </div>
+                <form action="" id="fill-form">
+                    <label id="label-1"></label>
+                    <div class="box2">
+                        <select>
+                            <optgroup label="Computer Science" id="label-1-select-optgroup-1">
+                                <option id="optgroup-1-option-1"></option>
+                                <option id="optgroup-1-option-2"></option>
+                                <option id="optgroup-1-option-3"></option>
+                                <option id="optgroup-1-option-4"></option>
+                                <option id="optgroup-1-option-5"></option>
+                            </optgroup>
+                            <optgroup label="Computer Science" id="label-1-select-optgroup-2">
+                                <option id="optgroup-2-option-1"></option>
+                                <option id="optgroup-2-option-2"></option>
+                                <option id="optgroup-2-option-3"></option>
+                                <option id="optgroup-2-option-4"></option>
+                                <option id="optgroup-2-option-5"></option>
+                            </optgroup>
+                            <optgroup label="Computer Science" id="label-1-select-optgroup-3">
+                                <option id="optgroup-3-option-1"></option>
+                                <option id="optgroup-3-option-2"></option>
+                                <option id="optgroup-3-option-3"></option>
+                                <option id="optgroup-3-option-4"></option>
+                                <option id="optgroup-3-option-5"></option>
+                            </optgroup>
+                            <optgroup label="Computer Science" id="label-1-select-optgroup-4">
+                                <option id="optgroup-4-option-1"></option>
+                                <option id="optgroup-4-option-2"></option>
+                                <option id="optgroup-4-option-3"></option>
+                                <option id="optgroup-4-option-4"></option>
+                                <option id="optgroup-4-option-5"></option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <label id="label-2"></label>
+                    <div class="box2">
+                        <input type="text" placeholder="Skills">
+                        <button>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </button>
+                    </div>
+                    <label id="label-3"></label>
+                    <div class="box2">
+                        <select>
+                            <option id="label-3-option-1"></option>
+                            <option id="label-3-option-2"></option>
+                            <option id="label-3-option-3"></option>
+                            <option id="label-3-option-4"></option>   
+                        </select>
+                    </div>
+                    <label id="label-4"></label>
+                    <div class="box2" style="flex-direction: column;height: 9%;margin-bottom: 2px;">
+                        <input type="range" placeholder="Stipend" min="2k" style="width: 86%;padding: 8px;height: 30%;">
+                        <div class="range">
+                            <option id="label-4-option-1"></option>
+                            <option id="label-4-option-2"></option>
+                            <option id="label-4-option-3"></option>
+                            <option id="label-4-option-4"></option>
+                            <option id="label-4-option-5"></option>
+                            <option id="label-4-option-6"></option>
+                        </div>
+                    </div>
+                    <label id="label-5"></label>
+                    <div class="box2">
+                        <select>
+                            <option id="label-5-option-1"></option>
+                            <option id="label-5-option-2"></option>
+                            <option id="label-5-option-3"></option>
+                            <option id="label-5-option-4"></option>
+                            <option id="label-5-option-5"></option>
+                            <option id="label-5-option-6"></option>
+                            <option id="label-5-option-7"></option>
+                            <option id="label-5-option-8"></option>
+                            <option id="label-5-option-9"></option>
+                            <option id="label-5-option-10"></option>
+                            <option id="label-5-option-11"></option>
+                            <option id="label-5-option-12"></option>   
+                       </select>
+                    </div>
+                    <label id="label-6"></label>
+                    <div class="box2">
+                        <select>
+                            <option id="label-6-option-1"></option>
+                            <option id="label-6-option-2"></option>
+                            <option id="label-6-option-3"></option> 
+                        </select>
+                    </div>
+                    <label id="label-7"></label>
+                    <div class="box2">
+                        <input type="file" placeholder="Register">
+                        <button></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="main2">
+            <div class="heading" id="title">
+                <h1></h1>
+                <button onclick="filter()" id="applybutton1"></button>
+            </div>
+            <form class="mainbox1">
+                <select name="Select your Role" placeholder="Searh your Role">
+                <optgroup label="Engineering" id="mainbox1-optgroup-1">
+                    <option id="mainbox1-optgroup-1-option-1"></option>
+                    <option id="mainbox1-optgroup-1-option-2"></option>
+                    <option id="mainbox1-optgroup-1-option-3"></option>
+                    <option id="mainbox1-optgroup-1-option-4"></option>
+                    <option id="mainbox1-optgroup-1-option-5"></option>
+                    <option id="mainbox1-optgroup-1-option-6"></option>
+                    <option id="mainbox1-optgroup-1-option-7"></option></optgroup>
+                    <optgroup label="Engineering" id="mainbox1-optgroup-2">
+                    <option id="mainbox1-optgroup-2-option-1"></option>
+                    <option id="mainbox1-optgroup-2-option-2"></option>
+                    <option id="mainbox1-optgroup-2-option-3"></option>
+                    <option id="mainbox1-optgroup-2-option-4"></option>
+                    <option id="mainbox1-optgroup-2-option-5"></option>
+                    <option id="mainbox1-optgroup-2-option-6"></option>
+                    <option id="mainbox1-optgroup-2-option-7"></option></optgroup>
+                    <optgroup label="Engineering" id="mainbox1-optgroup-3">
+                        <option id="mainbox1-optgroup-3-option-1"></option>
+                        <option id="mainbox1-optgroup-3-option-2"></option>
+                        <option id="mainbox1-optgroup-3-option-3"></option>
+                        <option id="mainbox1-optgroup-3-option-4"></option>
+                        <option id="mainbox1-optgroup-3-option-5"></option>
+                        <option id="mainbox1-optgroup-3-option-6"></option>
+                        <option id="mainbox1-optgroup-3-option-7"></option></optgroup>
+                        <optgroup label="Engineering" id="mainbox1-optgroup-4">
+                        <option id="mainbox1-optgroup-4-option-1"></option>
+                        <option id="mainbox1-optgroup-4-option-2"></option>
+                        <option id="mainbox1-optgroup-4-option-3"></option>
+                        <option id="mainbox1-optgroup-4-option-4"></option>
+                        <option id="mainbox1-optgroup-4-option-5"></option>
+                        <option id="mainbox1-optgroup-4-option-6"></option>
+                        <option id="mainbox1-optgroup-4-option-7"></option></optgroup>
+                        <optgroup label="Engineering" id="mainbox1-optgroup-5">
+                        <option id="mainbox1-optgroup-5-option-1"></option>
+                        <option id="mainbox1-optgroup-5-option-2"></option>
+                        <option id="mainbox1-optgroup-5-option-3"></option>
+                        <option id="mainbox1-optgroup-5-option-4"></option>
+                        <option id="mainbox1-optgroup-5-option-5"></option>
+                        <option id="mainbox1-optgroup-5-option-6"></option>
+                        <option id="mainbox1-optgroup-5-option-7"></option></optgroup>
+                        <optgroup label="Engineering" id="mainbox1-optgroup-6">
+                        <option id="mainbox1-optgroup-6-option-1"></option>
+                        <option id="mainbox1-optgroup-6-option-2"></option>
+                        <option id="mainbox1-optgroup-6-option-3"></option>
+                        <option id="mainbox1-optgroup-6-option-4"></option>
+                        <option id="mainbox1-optgroup-6-option-5"></option>
+                        <option id="mainbox1-optgroup-6-option-6"></option>
+                        <option id="mainbox1-optgroup-6-option-7"></option></optgroup>
+                </select>
+                <input class="input" type="search" placeholder="Search Your Location">
+            </form>
+            <div class="maincarousel">
+                <div class="carousel">
+                    <div class="carouselin">
+                        <div class="slide" id="slide-1">
+                            <div class="carousel1">
+                                <div class="mainbox2-in-1">
+                                    <h2></h2>
+                                </div>
+                                <div class="mainbox2-in-2">
+                                    <div class="job-status">
+                                        <div class="job-in" id="slide-1-job-in-1">
+                                            <h4></h4>
+                                        </div>
+                                        <div class="job-in" id="slide-1-job-in-2">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-start">
+                                        <div class="sta-dur-sti" id="sta">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-circle-play" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="dur">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-calendar" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="sti">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-money-bill" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="loc-in">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="job-in" id="job-app">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-apply">
+                                        <button onclick="view()" id="view1"></button>
+                                        <button onclick="apply_now()" id="applybutton2"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-2">
+                            <div class="carousel1">
+                                <div class="mainbox2-in-1">
+                                    <h2></h2>
+                                </div>
+                                <div class="mainbox2-in-2">
+                                    <div class="job-status">
+                                        <div class="job-in" id="slide-2-job-in-1">
+                                            <h4></h4>
+                                        </div>
+                                        <div class="job-in" id="slide-2-job-in-2">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-start">
+                                        <div class="sta-dur-sti" id="sta">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-circle-play" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="dur">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-calendar" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="sti">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-money-bill" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="loc-in">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="job-in" id="job-app">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-apply">
+                                        <button onclick="view()" id="view2"></button>
+                                        <button onclick="apply_now()" id="applybutton3"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-3">
+                            <div class="carousel1">
+                                <div class="mainbox2-in-1">
+                                    <h2></h2>
+                                </div>
+                                <div class="mainbox2-in-2">
+                                    <div class="job-status">
+                                        <div class="job-in" id="slide-3-job-in-1">
+                                            <h4></h4>
+                                        </div>
+                                        <div class="job-in" id="slide-3-job-in-2">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-start">
+                                        <div class="sta-dur-sti" id="sta">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-circle-play" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="dur">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-calendar" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="sti">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-money-bill" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="loc-in">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="job-in" id="job-app">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-apply">
+                                        <button onclick="view()" id="view3"></button>
+                                        <button onclick="apply_now()" id="applybutton4"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carouselin">
+                        <div class="slide" id="slide-4">
+                            <div class="carousel1">
+                                <div class="mainbox2-in-1">
+                                    <h2></h2>
+                                </div>
+                                <div class="mainbox2-in-2">
+                                    <div class="job-status">
+                                        <div class="job-in" id="slide-4-job-in-1">
+                                            <h4></h4>
+                                        </div>
+                                        <div class="job-in" id="slide-4-job-in-2">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-start">
+                                        <div class="sta-dur-sti" id="sta">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-circle-play" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="dur">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-calendar" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="sti">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-money-bill" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="loc-in">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="job-in" id="job-app">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-apply">
+                                        <button onclick="view()" id="view4"></button>
+                                        <button onclick="apply_now()" id="applybutton5"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-5">
+                            <div class="carousel1">
+                                <div class="mainbox2-in-1">
+                                    <h2></h2>
+                                </div>
+                                <div class="mainbox2-in-2">
+                                    <div class="job-status">
+                                        <div class="job-in" id="slide-5-job-in-1">
+                                            <h4></h4>
+                                        </div>
+                                        <div class="job-in" id="slide-5-job-in-2">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-start">
+                                        <div class="sta-dur-sti" id="sta">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-circle-play" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="dur">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-calendar" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="sti">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-money-bill" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="loc-in">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="job-in" id="job-app">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-apply">
+                                        <button onclick="view()" id="view5"></button>
+                                        <button onclick="apply_now()" id="applybutton6"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-6">
+                            <div class="carousel1">
+                                <div class="mainbox2-in-1">
+                                    <h2></h2>
+                                </div>
+                                <div class="mainbox2-in-2">
+                                    <div class="job-status">
+                                        <div class="job-in" id="slide-6-job-in-1">
+                                            <h4></h4>
+                                        </div>
+                                        <div class="job-in" id="slide-6-job-in-2">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-start">
+                                        <div class="sta-dur-sti" id="sta">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-circle-play" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="dur">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-calendar" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="sti">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-money-bill" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="loc-in">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="job-in" id="job-app">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-apply">
+                                        <button onclick="view()" id="view6"></button>
+                                        <button onclick="apply_now()" id="applybutton7"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carouselin">
+                        <div class="slide" id="slide-7">
+                            <div class="carousel1">
+                                <div class="mainbox2-in-1">
+                                    <h2></h2>
+                                </div>
+                                <div class="mainbox2-in-2">
+                                    <div class="job-status">
+                                        <div class="job-in" id="slide-7-job-in-1">
+                                            <h4></h4>
+                                        </div>
+                                        <div class="job-in" id="slide-7-job-in-2">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-start">
+                                        <div class="sta-dur-sti" id="sta">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-circle-play" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="dur">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-calendar" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="sti">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-money-bill" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="loc-in">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="job-in" id="job-app">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-apply">
+                                        <button onclick="view()" id="view7"></button>
+                                        <button onclick="apply_now()" id="applybutton8"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-8">
+                            <div class="carousel1">
+                                <div class="mainbox2-in-1">
+                                    <h2></h2>
+                                </div>
+                                <div class="mainbox2-in-2">
+                                    <div class="job-status">
+                                        <div class="job-in" id="slide-8-job-in-1">
+                                            <h4></h4>
+                                        </div>
+                                        <div class="job-in" id="slide-8-job-in-2">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-start">
+                                        <div class="sta-dur-sti" id="sta">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-circle-play" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="dur">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-calendar" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="sti">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-money-bill" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="loc-in">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="job-in" id="job-app">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-apply">
+                                        <button onclick="view()" id="view8"></button>
+                                        <button onclick="apply_now()" id="applybutton9"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-9">
+                            <div class="carousel1">
+                                <div class="mainbox2-in-1">
+                                    <h2></h2>
+                                </div>
+                                <div class="mainbox2-in-2">
+                                    <div class="job-status">
+                                        <div class="job-in" id="slide-9-job-in-1">
+                                            <h4></h4>
+                                        </div>
+                                        <div class="job-in" id="slide-9-job-in-2">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-start">
+                                        <div class="sta-dur-sti" id="sta">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-circle-play" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="dur">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-calendar" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="sti">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-money-bill" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="loc-in">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="job-in" id="job-app">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-apply">
+                                        <button onclick="view()" id="view9"></button>
+                                        <button onclick="apply_now()" id="applybutton10"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carouselin">
+                        <div class="slide" id="slide-10">
+                            <div class="carousel1">
+                                <div class="mainbox2-in-1">
+                                    <h2></h2>
+                                </div>
+                                <div class="mainbox2-in-2">
+                                    <div class="job-status">
+                                        <div class="job-in" id="slide-10-job-in-1">
+                                            <h4></h4>
+                                        </div>
+                                        <div class="job-in" id="slide-10-job-in-2">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-start">
+                                        <div class="sta-dur-sti" id="sta">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-circle-play" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="dur">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-calendar" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="sti">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-money-bill" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="loc-in">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="job-in" id="job-app">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-apply">
+                                        <button onclick="view()" id="view10"></button>
+                                        <button onclick="apply_now()" id="applybutton11"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-11">
+                            <div class="carousel1">
+                                <div class="mainbox2-in-1">
+                                    <h2></h2>
+                                </div>
+                                <div class="mainbox2-in-2">
+                                    <div class="job-status">
+                                        <div class="job-in" id="slide-11-job-in-1">
+                                            <h4></h4>
+                                        </div>
+                                        <div class="job-in" id="slide-11-job-in-2">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-start">
+                                        <div class="sta-dur-sti" id="sta">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-circle-play" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="dur">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-calendar" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="sti">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-money-bill" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="loc-in">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="job-in" id="job-app">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-apply">
+                                        <button onclick="view()" id="view11"></button>
+                                        <button onclick="apply_now()" id="applybutton12"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-12">
+                            <div class="carousel1">
+                                <div class="mainbox2-in-1">
+                                    <h2></h2>
+                                </div>
+                                <div class="mainbox2-in-2">
+                                    <div class="job-status">
+                                        <div class="job-in" id="slide-12-job-in-1">
+                                            <h4></h4>
+                                        </div>
+                                        <div class="job-in" id="slide-12-job-in-2">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-start">
+                                        <div class="sta-dur-sti" id="sta">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-circle-play" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="dur">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-calendar" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sta-dur-sti" id="sti">
+                                            <div class="ico-con">
+                                                <div class="ico">
+                                                    <i class="fa-solid fa-money-bill" style="color: #acabab;"></i>
+                                                </div>
+                                                <div class="sta-dur-sti-in">
+                                                    <h4></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="loc-in">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-location">
+                                        <div class="job-in" id="job-app">
+                                            <h4></h4>
+                                        </div>
+                                    </div>
+                                    <div class="job-apply">
+                                        <button onclick="view()" id="view12"></button>
+                                        <button onclick="apply_now()" id="applybutton13"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="width: 100%;height: 0%;display: flex;flex-direction: row;align-items: center;justify-content: 
+                center;position:relative;top: -2%;">
+                <button style="margin: 10px;border-radius: 0%;width: 25px;height: 35px;" onclick="back()">
+                    <i class="fa-solid fa-angle-left fa-xl"></i>
+                </button>
+                <button style="margin: 10px;border-radius: 0%;width: 25px;height: 35px;" onclick="forw()">
+                    <i class="fa-solid fa-angle-right fa-xl"></i>
+                </button>
+            </div>
+            <div class="mainbox2">
+                <div class="mainbox2-in">
+                    <div class="mainbox2-in-1">
+                        <h2 id="course-available"></h2>
+                    </div>
+                    <div class="mainbox2-in-2">
+                        <div class="FAQ">
+                            <div class="title">
+                                <h3 id="choose-your-course">
+                                    </h2>
+                            </div>
+                            <select class="ques" id="ques-select-1">
+                                <option id="ques-select-1-option-1"></option>
+                                <option id="ques-select-1-option-2"></option>
+                                <option id="ques-select-1-option-3"></option>
+                                <option id="ques-select-1-option-4"></option>    
+                            </select>
+                            <select class="ques" id="ques-select-2">
+                                <option id="ques-select-2-option-1"></option>
+                                <option id="ques-select-2-option-2"></option>
+                                <option id="ques-select-2-option-3"></option>
+                                <option id="ques-select-2-option-4"></option>
+                            </select>
+                            <select class="ques" id="ques-select-3">
+                                <option id="ques-select-3-option-1"></option>
+                                <option id="ques-select-3-option-2"></option>
+                                <option id="ques-select-3-option-3"></option>
+                                <option id="ques-select-3-option-4"></option>
+                            </select>
+                            <select class="ques" id="ques-select-4">
+                                <option id="ques-select-4-option-1"></option>
+                                <option id="ques-select-4-option-2"></option>
+                                <option id="ques-select-4-option-3"></option>
+                                <option id="ques-select-4-option-4"></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainbox2-in">
+                    <div class="mainbox2-in-1">
+                        <h2 id="ask-doubts"></h2>
+                    </div>
+                    <div class="mainbox2-in-2">
+                        <div class="user-admin-box-main">
+                            <div class="user-admin-box">
+                                <form class="user-box">
+                                    <div class="user-admin-icon">
+                                        <i class="fa-solid fa-user fa-2xl"></i>
+                                        <h5 id="user-1"></h5>
+                                    </div>
+                                    <div class="doubt-section">
+                                        <textarea class="user-admin-con"></textarea>
+                                        <button>
+                                            <img src="Screenshot 2023-07-15 143248.png" width="100%" height="100%">
+                                        </button>
+                                    </div>
+                                </form>
+                                <form class="admin-box">
+                                    <div class="user-admin-icon">
+                                        <i class="fa-solid fa-user fa-2xl"></i>
+                                        <h5 id="admin-1"></h5>
+                                    </div>
+                                    <div class="doubt-section">
+                                        <textarea class="user-admin-con"></textarea>
+                                        <img src="Screenshot 2023-07-15 143248.png" width="100%" height="100%">
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="user-admin-box">
+                                <form class="user-box">
+                                    <div class="user-admin-icon">
+                                        <i class="fa-solid fa-user fa-2xl"></i>
+                                        <h5 id="user-2"></h5>
+                                    </div>
+                                    <div class="doubt-section">
+                                        <textarea class="user-admin-con"></textarea>
+                                        <button>
+                                            <img src="Screenshot 2023-07-15 143248.png" width="100%" height="100%">
+                                        </button>
+                                    </div>
+                                </form>
+                                <form class="admin-box">
+                                    <div class="user-admin-icon">
+                                        <i class="fa-solid fa-user fa-2xl"></i>
+                                        <h5 id="admin-2"></h5>
+                                    </div>
+                                    <div class="doubt-section">
+                                        <textarea class="user-admin-con"></textarea>
+                                        <button>
+                                            <img src="Screenshot 2023-07-15 143248.png" width="100%" height="100%">
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="user-admin-box">
+                                <form class="user-box">
+                                    <div class="user-admin-icon">
+                                        <i class="fa-solid fa-user fa-2xl"></i>
+                                        <h5 id="user-3"></h5>
+                                    </div>
+                                    <div class="doubt-section">
+                                        <textarea class="user-admin-con"></textarea>
+                                        <button>
+                                            <img src="Screenshot 2023-07-15 143248.png" width="100%" height="100%">
+                                        </button>
+                                    </div>
+                                </form>
+                                <form class="admin-box">
+                                    <div class="user-admin-icon">
+                                        <i class="fa-solid fa-user fa-2xl"></i>
+                                        <h5 id="admin-3"></h5>
+                                    </div>
+                                    <div class="doubt-section">
+                                        <textarea class="user-admin-con"></textarea>
+                                        <button>
+                                            <img src="Screenshot 2023-07-15 143248.png" width="100%" height="100%">
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="user-admin-box">
+                                <form class="user-box">
+                                    <div class="user-admin-icon">
+                                        <i class="fa-solid fa-user fa-2xl"></i>
+                                        <h5 id="user-4"></h5>
+                                    </div>
+                                    <div class="doubt-section">
+                                        <textarea class="user-admin-con"></textarea>
+                                        <button>
+                                            <img src="Screenshot 2023-07-15 143248.png" width="100%" height="100%">
+                                        </button>
+                                    </div>
+                                </form>
+                                <form class="admin-box">
+                                    <div class="user-admin-icon">
+                                        <i class="fa-solid fa-user fa-2xl"></i>
+                                        <h5 id="admin-4"></h5>
+                                    </div>
+                                    <div class="doubt-section" id="dsec">
+                                        <textarea class="user-admin-con" id="ta0"></textarea>
+                                        <button>
+                                            <img src="Screenshot 2023-07-15 143248.png" width="100%" height="100%">
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main3">
+            <div class="notice">
+                <button class="but2" onclick="side_button1()">
+                    <i class="fa-solid fa-question fa-2xl"></i>
+                </button>
+                <button class="but2" onclick="side_button2()">
+                    <i class="fa-solid fa-users fa-2xl"></i>
+                </button>
+                <button class="but2" onclick="side_button3()">
+                    <i class="fa-solid fa-calendar-days fa-2xl"></i>
+                </button>
+                <button class="but2" onclick="side_button4()">
+                    <i class="fa-solid fa-phone fa-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+    <script src="js.js"></script>
+    <script src="carousel.js"></script>
+    <script src="json1.js"></script>
+    <script src="fetch_jsonfile.js"></script>
+</body>
+
+</html>

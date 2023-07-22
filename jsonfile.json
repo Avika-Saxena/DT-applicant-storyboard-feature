@@ -1,0 +1,170 @@
+{
+    "drop": ["LogOut", "Parent Dashboard", "Batches", "Cohorts", "Sessions", "Articles", "Quizes"],
+
+    "heading": "Applicant's Story-Board",
+
+    "apply-button": ["Apply Now", "Apply Now", "Apply Now", "Apply Now", "Apply Now", "Apply Now", "Apply Now", "Apply Now", "Apply Now", "Apply Now", "Apply Now", "Apply Now", "Apply Now"],
+
+    "view-details": ["View details", "View details", "View details", "View details", "View details", "View details", "View details", "View details", "View details", "View details", "View details"],
+
+    "labels": ["Select Role", "Select Skills", "Experience", "Stipend", "Select Location", "Start Date", "Upload your Resume"],
+
+    "add-filter": " Add Your Filter ",
+
+    "select-option": {
+        "select1": {
+            "optgroup-1": ["Front-End Developer", "PHP Developer", "/C++Developer", "Django Developer", "AI/ML"],
+            "optgroup-2": ["Front-End Developer", "PHP Developer", "/C++Developer", "Django Developer", "AI/ML"],
+            "optgroup-3": ["Front-End Developer", "PHP Developer", "/C++Developer", "Django Developer", "AI/ML"],
+            "optgroup-4": ["Front-End Developer", "PHP Developer", "/C++Developer", "Django Developer", "AI/ML"]
+        },
+        "select2": ["5+ Years", "1-5 Years", "0 year / Fresher", "Intern"],
+        "select3": ["2K", "10K", "25K", "50K", "65K", "90K"],
+        "select4": ["Hyderabad", "Pune", "Mumbai", "Delhi", "Jodhpur", "Ahemdabad", "Bengalore", "Chennai", "Gurgao", "Ranchi", "Kolkata", "Remote"],
+        "select5": ["Immediately", "After 1 week", "After 2 week"]
+    },
+    "select-form": {
+        "select1": {
+            "optgroup-1": ["Front-End Developer", "PHP Developer", "/C++Developer", "Django Developer", "AI/ML", "", ""],
+            "optgroup-2": ["Front-End Developer", "PHP Developer", "/C++Developer", "Django Developer", "AI/ML", "", ""],
+            "optgroup-3": ["Front-End Developer", "PHP Developer", "/C++Developer", "Django Developer", "AI/ML", "", ""],
+            "optgroup-4": ["Front-End Developer", "PHP Developer", "/C++Developer", "Django Developer", "AI/ML", "", ""],
+            "optgroup-5": ["Front-End Developer", "PHP Developer", "/C++Developer", "Django Developer", "AI/ML", "", ""],
+            "optgroup-6": ["Front-End Developer", "PHP Developer", "/C++Developer", "Django Developer", "AI/ML", "", ""]
+        }
+    },
+    "carousel": [{
+            "heading": "Web Developer Intern",
+            "Post_date": "15.08.23",
+            "active": "Actively Hiring",
+            "Location": "Pune",
+            "Applied": "987",
+            "start_date": "19.09.23",
+            "Duration": "3 months",
+            "salary": "25000/-"
+        },
+        {
+            "heading": "Business Analyst",
+            "Post_date": "18.02.23",
+            "active": "Closing Soon",
+            "Location": "Remote",
+            "Applied": "1145",
+            "start_date": "19.03.23",
+            "Duration": "8 months",
+            "salary": "35000/-"
+        },
+        {
+            "heading": "Android Developer Intern",
+            "Post_date": "01.07.23",
+            "active": "Actively Hiring",
+            "Location": "Remote",
+            "Applied": "587",
+            "start_date": "01.08.23",
+            "Duration": "3 months",
+            "salary": "25000/-"
+        },
+        {
+            "heading": "Software Developer Intern",
+            "Post_date": "03.04.23",
+            "active": "Actively Hiring",
+            "Location": "Jodhpur",
+            "Applied": "1987",
+            "start_date": "06.06.23",
+            "Duration": "3 months",
+            "salary": "35000/-"
+        },
+        {
+            "heading": "Front End Intern",
+            "Post_date": "15.08.23",
+            "active": "Actively Hiring",
+            "Location": "Pune",
+            "Applied": "987",
+            "start_date": "19.09.23",
+            "Duration": "6 months",
+            "salary": "30000/-"
+        },
+        {
+            "heading": "Back End Intern",
+            "Post_date": "15.04.23",
+            "active": "Closing Soon",
+            "Location": "Delhi",
+            "Applied": "2987",
+            "start_date": "19.08.23",
+            "Duration": "6 months",
+            "salary": "30000/-"
+        },
+        {
+            "heading": "PHP Developer Intern",
+            "Post_date": "15.08.23",
+            "active": "Actively Hiring",
+            "Location": "Bengalore",
+            "Applied": "387",
+            "start_date": "19.10.23",
+            "Duration": "3 months",
+            "salary": "25000/-"
+        },
+        {
+            "heading": "Project Manager ",
+            "Post_date": "15.08.23",
+            "active": "Actively Hiring",
+            "Location": "Ahemdabad",
+            "Applied": "2987",
+            "start_date": "19.09.23",
+            "Duration": "12 months",
+            "salary": "40000/-"
+        },
+        {
+            "heading": "AI Developer Intern",
+            "Post_date": "15.08.23",
+            "active": "Actively Hiring",
+            "Location": "Mumbai",
+            "Applied": "1787",
+            "start_date": "19.09.23",
+            "Duration": "3 months",
+            "salary": "45000/-"
+        },
+        {
+            "heading": "Web Developer Intern",
+            "Post_date": "15.08.23",
+            "active": "Actively Hiring",
+            "Location": "Pune",
+            "Applied": "987",
+            "start_date": "19.09.23",
+            "Duration": "3 months",
+            "salary": "25000/-"
+        },
+        {
+            "heading": "Business Analyst",
+            "Post_date": "18.02.23",
+            "active": "Closing Soon",
+            "Location": "Remote",
+            "Applied": "1145",
+            "start_date": "19.03.23",
+            "Duration": "8 months",
+            "salary": "35000/-"
+        },
+        {
+            "heading": "Android Developer Intern",
+            "Post_date": "01.07.23",
+            "active": "Actively Hiring",
+            "Location": "Remote",
+            "Applied": "587",
+            "start_date": "01.08.23",
+            "Duration": "3 months",
+            "salary": "25000/-"
+        }
+
+    ],
+    "courses": "Course Available",
+    "choose-course": "Choose Your Course",
+    "ask-doubt": "Ask your Doubts",
+    "user": ["user", "user", "user", "user"],
+    "admin": ["admin", "admin", "admin", "admin"],
+    "ques_select_course": {
+        "select1": ["Full Stack Development Course", "Cloud Computing Course", "Cyber-Security Course", "Deep Learning"],
+        "select2": ["Full Stack Data Science Course", "AI/ML", "Networking", "NLP"],
+        "select3": ["Business Analyst", "Public Leadership Credential", "Marketing", "Sales"],
+        "select4": ["Project management course", "Hotel Management", "Introduction to Time Management", "Introduction to sales and marketing"]
+    }
+
+}
